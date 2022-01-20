@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 21px;
   font-weight: 300;
+  margin: 0;
 }
 
 .container {
@@ -26,6 +27,7 @@ h2 .bold-text {
 h1,
 h2 {
   font-weight: 300;
+  margin-top: 0;
 }
 
 h1 {
@@ -39,20 +41,31 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 0; 
 }
 
-a {
+.b-bx {
+  border-block: 2px #c4c4c4 solid;
+  padding-block: 25px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.link-to {
   color: #99D930;
   font-weight: 900;
 }
 
-a:hover,
-a:focus {
+.link-to:hover,
+.link-to:focus {
   color: #131313;
 }
 
 .small-text {
   font-size: 16px;
+  margin: 0;
 }
 
 .section-a,
@@ -61,14 +74,24 @@ a:focus {
   padding-block:100px;
 }
 
-.section-a {
-  background-color: antiquewhite;
+.dark-col {
+  background-color: #252525;
+  color: #fff;
 }
 
-.section-b {
-  background-color: palevioletred;
+.btn-a {
+  padding: 15px 40px;
+  background-color: #99D930;
+  color: #252525;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 20px;
 }
 
-.section-c {
-  background-color: peru;
+.btn-a:focus,
+.btn-a:hover {
+  background-color:#252525;
+  color: #fff;
+  transition: 0.5s ease-in;
 }
